@@ -1,10 +1,10 @@
-DHIS2 (District Health Information System 2) is a robust open-source platform used for data collection, management, and analysis in the health sector. Leveraging the power of Databricks and the principles of the Medallion architecture can enhance the capabilities and scalability of DHIS2 as a data warehouse. Here's a description of how you could architect such a solution:
+# DHIS2 (District Health Information System 2) is a robust open-source platform used for data collection, management, and analysis in the health sector. Leveraging the power of Databricks and the principles of the Medallion architecture can enhance the capabilities and scalability of DHIS2 as a data warehouse. Here's a description of how you could architect such a solution:
 
 ## Overview:
 The integration of DHIS2 with Databricks using the Medallion architecture provides a scalable and efficient solution for managing and analyzing health data. This architecture ensures reliability, scalability, and performance in handling large volumes of data.
 
 ## Components:
-###DHIS2: This serves as the primary data source, collecting data from various health facilities, programs, and geographic locations. DHIS2 offers a flexible data model that accommodates different health indicators, demographics, and program-specific data.
+### DHIS2: This serves as the primary data source, collecting data from various health facilities, programs, and geographic locations. DHIS2 offers a flexible data model that accommodates different health indicators, demographics, and program-specific data.
 
 ### Medallion Architecture: The Medallion architecture emphasizes decoupling data storage from processing, enabling scalable and cost-effective data pipelines. It consists of three layers:
 
@@ -39,4 +39,4 @@ The integration of DHIS2 with Databricks using the Medallion architecture provid
 
 ### Cost-Effectiveness: Databricks' pay-as-you-go pricing model and optimized resource utilization help control infrastructure costs while maximizing the value derived from health data analytics.
 
-By combining DHIS2 with Databricks using the Medallion architecture, organizations can build a powerful and scalable data warehouse solution that empowers decision-makers with actionable insights for improving public health outcomes.
+# By combining DHIS2 with Databricks using the Medallion architecture, organizations can build a powerful and scalable data warehouse solution that empowers decision-makers with actionable insights for improving public health outcomes.
